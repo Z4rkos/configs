@@ -1,3 +1,10 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -10,7 +17,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -54,6 +61,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
 # much, much faster.
+#
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Uncomment the following line if you want to change the command execution time
@@ -76,18 +84,34 @@ plugins=(
     zsh-syntax-highlighting
     zsh-autosuggestions
     fzf
+    fzf-zsh-plugin
     )
 
 source $ZSH/oh-my-zsh.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export FZF_DEFAULT_OPW="--extended"
 
 # Custom Aliases.
 alias discord="/opt/Discord/Discord"
-alias pwn_template="cp ~/Tools/pwn_template.py ./solve.py"
+alias pwn_template="cp ~/Tools/templates/pwn_template.py ./solve.py"
 alias lol_thing="sudo sh -c 'sysctl -w abi.vsyscall32=0'"
-alias postman="/usr/opt/Postman/Postman"
+alias postman="/usr/bin/Postman/Postman"
+alias ghidra="export _JAVA_AWT_WM_NONREPARENTING=1; ghidra"
+alias glava2="pgrep -x glava > /dev/null || glava --desktop 1>/dev/null &; glava --desktop --entry=rc2.glsl 1>/dev/null &"
+alias vimwiki="cd ~/vimwiki && nvim ~/vimwiki/index.wiki"
 
+# Custom Exports:
+export EDITOR=nvim
+export VISUAL=nvim
 
+export MANPAGER='nvim +Man!'
+# export MANWIDTH=999
+
+if [ -e /usr/share/terminfo/x/xterm-256color ]; then
+        export TERM='xterm-256color'
+else
+        export TERM='xterm-color'
+fi
 # Custom theme stuff
 
 #feh --no-fehbg --bg-fill "$theme_image"
@@ -95,3 +119,11 @@ alias postman="/usr/opt/Postman/Postman"
 cat ~/.cache/wal/sequences 2>/dev/null
 
 . "${HOME}/.cache/wal/colors.sh"
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+
+
+
+
