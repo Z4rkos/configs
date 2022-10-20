@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/z4/Pictures/glitchy_skies.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1b1c1f",
+        "foreground": "#e2dcd3",
+        "cursor": "#e2dcd3"
+    },
+    "colors": {
+        "color0": "#1b1c1f",
+        "color1": "#CDA968",
+        "color2": "#325A9D",
+        "color3": "#15668E",
+        "color4": "#368AA0",
+        "color5": "#659B9F",
+        "color6": "#97AFAC",
+        "color7": "#e2dcd3",
+        "color8": "#9e9a93",
+        "color9": "#CDA968",
+        "color10": "#325A9D",
+        "color11": "#15668E",
+        "color12": "#368AA0",
+        "color13": "#659B9F",
+        "color14": "#97AFAC",
+        "color15": "#e2dcd3"
+    }
+}

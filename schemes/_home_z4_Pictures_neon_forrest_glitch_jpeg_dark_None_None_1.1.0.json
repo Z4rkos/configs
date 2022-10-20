@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/z4/Pictures/neon_forrest_glitch.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#090212",
+        "foreground": "#a1c7dc",
+        "cursor": "#a1c7dc"
+    },
+    "colors": {
+        "color0": "#090212",
+        "color1": "#218B77",
+        "color2": "#3E319F",
+        "color3": "#235B9B",
+        "color4": "#5C619F",
+        "color5": "#DE1BA3",
+        "color6": "#B547B1",
+        "color7": "#a1c7dc",
+        "color8": "#708b9a",
+        "color9": "#218B77",
+        "color10": "#3E319F",
+        "color11": "#235B9B",
+        "color12": "#5C619F",
+        "color13": "#DE1BA3",
+        "color14": "#B547B1",
+        "color15": "#a1c7dc"
+    }
+}

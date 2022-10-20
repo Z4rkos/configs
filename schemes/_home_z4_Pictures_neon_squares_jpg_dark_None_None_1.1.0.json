@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/z4/Pictures/neon_squares.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0F0A31",
+        "foreground": "#7fd1e2",
+        "cursor": "#7fd1e2"
+    },
+    "colors": {
+        "color0": "#0F0A31",
+        "color1": "#910870",
+        "color2": "#261693",
+        "color3": "#590C99",
+        "color4": "#2F40BA",
+        "color5": "#9C0D9D",
+        "color6": "#C817CF",
+        "color7": "#7fd1e2",
+        "color8": "#58929e",
+        "color9": "#910870",
+        "color10": "#261693",
+        "color11": "#590C99",
+        "color12": "#2F40BA",
+        "color13": "#9C0D9D",
+        "color14": "#C817CF",
+        "color15": "#7fd1e2"
+    }
+}

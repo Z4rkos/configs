@@ -1,0 +1,27 @@
+{
+  "wallpaper": "/home/z4/Pictures/geometry-1658412736010-3216.jpg",
+  "alpha": "100",
+  "special": {
+    "background": "#03040E",
+    "foreground": "#a9c6e2",
+    "cursor": "#a9c6e2"
+  },
+  "colors": {
+    "color0": "#03040E",
+    "color1": "#44ffff",
+    "color2": "#ff3311",
+    "color3": "#C73A5F",
+    "color4": "#9933ff",
+    "color5": "#5F37AE",
+    "color6": "#BF46AE",
+    "color7": "#ffddff",
+    "color8": "#768a9e",
+    "color9": "#5B2455",
+    "color10": "#9F2C5D",
+    "color11": "#ff1111",
+    "color12": "#EBBD65",
+    "color13": "#3F37AE",
+    "color14": "#BF46AE",
+    "color15": "#a9c6e2"
+  }
+}

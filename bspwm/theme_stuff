@@ -1,0 +1,5 @@
+#!/bin/bash
+
+declare theme_image=~/.cache/wal/schemes/cool_red_purple2.json
+wal -i $theme_image -q
+. "${HOME}/.cache/wal/colors.sh"

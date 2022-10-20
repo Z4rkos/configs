@@ -1,0 +1,36 @@
+#!/bin/bash
+
+# --- General configs and launchin of shit ---
+$HOME/.config/bspwm/gruvbox_autostart.sh &
+
+# --- Window Stuff ---
+bspc config window_gap          8
+# bspc config top_padding         15
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+# --- Border Stuff ---
+bspc config normal_border_color  $color3
+bspc config active_border_color  $color1
+bspc config focused_border_color $color1
+
+bspc config border_width 0
+
+
+# --- Rule Stuff ---
+bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a Screenkey manage=off
+bspc rule -a Nm-connection-editor state=floating
+bspc rule -a burp-StartBurp state=floating
+bspc rule -a libreoffice-writer desktop='^3'
+bspc rule -a net-technicpack-launcher-LauncherMain state=floating
+bspc rule -a Discord desktop='^0'
+bspc rule -a Spotify desktop='^9'
+bspc rule -a leagueclientux.exe desktop='^5'
+bspc rule -a Lutris desktop='^5'
+bspc rule -a "league of legends.exe" desktop='^5'
+bspc rule -a riotclientux.exe desktop='^5'
+bspc rule -a armitage-ArmitageMain state=floating
+bspc rule -a upc.exe stat=floating desktop='^5'
+bspc rule -a jetbrains-pycharm-ce stat=floating

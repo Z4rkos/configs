@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/z4/Pictures/glitchy_tri.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#100c21",
+        "foreground": "#cfbbbb",
+        "cursor": "#cfbbbb"
+    },
+    "colors": {
+        "color0": "#100c21",
+        "color1": "#E9A579",
+        "color2": "#6C7F84",
+        "color3": "#937782",
+        "color4": "#A67D85",
+        "color5": "#D07B84",
+        "color6": "#988A87",
+        "color7": "#cfbbbb",
+        "color8": "#908282",
+        "color9": "#E9A579",
+        "color10": "#6C7F84",
+        "color11": "#937782",
+        "color12": "#A67D85",
+        "color13": "#D07B84",
+        "color14": "#988A87",
+        "color15": "#cfbbbb"
+    }
+}

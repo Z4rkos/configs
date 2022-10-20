@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/z4/Pictures/geometric-shapes-wallpaper-for-1920x1080-63-296.webp",
+    "alpha": "100",
+    "special": {
+        "background": "#150f1c",
+        "foreground": "#ddd1bd",
+        "cursor": "#ddd1bd"
+    },
+    "colors": {
+        "color0": "#150f1c",
+        "color1": "#9B8464",
+        "color2": "#AA926E",
+        "color3": "#B29B73",
+        "color4": "#CBA76A",
+        "color5": "#2F9889",
+        "color6": "#B3AC89",
+        "color7": "#ddd1bd",
+        "color8": "#9a9284",
+        "color9": "#9B8464",
+        "color10": "#AA926E",
+        "color11": "#B29B73",
+        "color12": "#CBA76A",
+        "color13": "#2F9889",
+        "color14": "#B3AC89",
+        "color15": "#ddd1bd"
+    }
+}

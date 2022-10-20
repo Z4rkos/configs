@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/z4/Pictures/glitchy_city.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#040710",
+        "foreground": "#a7c6c1",
+        "cursor": "#a7c6c1"
+    },
+    "colors": {
+        "color0": "#040710",
+        "color1": "#58666C",
+        "color2": "#6A7073",
+        "color3": "#A13B46",
+        "color4": "#4DA364",
+        "color5": "#4D5095",
+        "color6": "#A35F90",
+        "color7": "#a7c6c1",
+        "color8": "#748a87",
+        "color9": "#58666C",
+        "color10": "#6A7073",
+        "color11": "#A13B46",
+        "color12": "#4DA364",
+        "color13": "#4D5095",
+        "color14": "#A35F90",
+        "color15": "#a7c6c1"
+    }
+}
