@@ -1,0 +1,43 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "py",
+    "yaml",
+    "json",
+    "html",
+    "js",
+    "css"
+  ],
+  "diagnostic.errorSign": "•",
+  "diagnostic.warningSign": "•",
+  "diagnostic.infoSign": "•",
+  "python.linting.flake8Enabled": true,
+  "python.formatting.provider": "black",
+
+  "diagnostic.messageTarget": "echo",
+  "signature.target": "echo",
+  "coc.preferences.hoverTarget": "echo",
+  "javascript.suggestionActions.enabled": true,
+  "typescript.suggestionActions.enabled": true,
+  "prettier.printWidth": 120,
+  "prettier.singleQuote": true,
+  "svelte.enable-ts-plugin": true,
+
+  "languageserver": {
+    "ccls": {
+      "command": "ccls",
+      "filetypes": ["c", "cpp", "objc", "objcpp"],
+      "rootPatterns": [
+        ".ccls",
+        "compile_commands.json",
+        ".vim/",
+        ".git/",
+        ".hg/"
+      ],
+      "initializationOptions": {
+        "cache": {
+          "directory": "/tmp/ccls"
+        }
+      }
+    }
+  }
+}
